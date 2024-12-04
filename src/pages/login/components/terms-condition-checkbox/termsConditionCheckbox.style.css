@@ -1,0 +1,17 @@
+.terms-condition__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.terms-condition__input {
+  margin: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.terms-condition-links {
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.home-contianer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.home-header h3 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,26 @@
+.input-contianer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.25rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.input-contianer input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.input-contianer__eye-icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  cursor: pointer;
+}
