@@ -4,7 +4,7 @@ import CustomInput from "../../components/custom-input/customInput";
 import CustomButton from "../../components/custom-button/customButton";
 import TermsCoditionCheckbox from "./components/terms-condition-checkbox/termsConditionCheckbox";
 import { loginService } from "../../redux/auth/auth.thunk";
-import "./login.style.css";
+import logo from "../../assets/images/logo.png"
 import customToast from "../../utils/toaster.utils";
 import {
   clearSessionStorage,
@@ -12,6 +12,7 @@ import {
 } from "../../utils/storage.utils";
 import { useNavigate } from "react-router";
 import { clearAuthStateAction } from "../../redux/auth/auth.slice";
+import "./login.style.css";
 
 function Login() {
   const dispatch = useDispatch();
@@ -92,6 +93,7 @@ function Login() {
   return (
     <div className="login-form__container">
       <form className="login-form" onSubmit={handleOnSubmit}>
+        <img src={logo} alt="logo" />
         <h3>Hello there, Sign in to continue</h3>
         <CustomInput
           label="Email"
